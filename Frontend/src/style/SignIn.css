@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+}
+
+.SignIn{
+    background-image: url("https://t4.ftcdn.net/jpg/01/18/61/65/360_F_118616519_k7bfYYxDnEeem4oIgIGttiCi46xIfIbG.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 30px 350px;
+    border: 1px solid blue;
+    box-shadow: 10px 10px 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: lavenderblush;
+    
+  
+}
+
+.main form{
+    margin: 50px;
+}
+
+h4{
+    margin-bottom: 100px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+   padding-bottom: 30px;
+}
+
+
+
+input{
+    margin: 5px;
+    padding: 0px 50px;
+     margin: 10px;
+    height: 20px;
+    border-radius: 8px; 
+}
+
+.btn{
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.btn button{
+    padding: 13px 40px 13px 40px ;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 255, 0.333);
+    cursor: pointer;
+    color: white;
+}
+
+.signUp{
+    margin: 60px;
+}
+
+.signUp a {
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 10px 30px 10px 30px;
+    background-color:rgba(0, 0, 255, 0.381);
+    border-radius: 30px;
+    color: white;
+}
+
+.signUp.link{
+    margin-right: 100px;
+}
+
+

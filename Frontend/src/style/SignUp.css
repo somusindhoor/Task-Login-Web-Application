@@ -1,0 +1,60 @@
+.SignUP{
+    
+    display: flex;
+    padding: 5px 15px;
+    border-radius: 5px;
+    width: 500px;
+    height: 100px;
+}
+.image{
+    padding-top: 50px;
+}
+
+.image img{
+    width: 400px;
+    height: 370px;
+}
+
+.content{
+    padding: 30px;
+    align-items: center;
+}
+
+.cont1{
+    margin: 0px 0px 20px 0px;
+}
+
+.cont1 h1{
+    margin: 2px 0px;
+}
+
+.cont1 p{
+    margin: 2px 0px;
+}
+
+.cont2 input{
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 2px solid rgb(187, 45, 69);
+    width: 300px;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 70px;
+}
+
+.cont2 a {
+    text-decoration: none;
+}
+
+
+.cont2 button{
+    font-size: 15px;
+    background-color: red;
+    border-radius: 30px;
+    padding: 15px 60px 15px 60px;
+    color: white;
+}
