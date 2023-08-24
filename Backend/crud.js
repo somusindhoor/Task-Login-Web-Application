@@ -57,7 +57,7 @@ app.post('/tasks',(req,res)=>{
     const data = {
         Name : req.body.Name,
         taskStatus : req.body.taskStatus,
-        id : courses.length+1
+        id : tasks.length+1
     }
     tasks.push(data)
     res.send(data)
